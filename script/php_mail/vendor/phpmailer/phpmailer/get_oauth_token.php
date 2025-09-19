@@ -52,6 +52,27 @@ if (!isset($_GET['code']) && !isset($_GET['provider'])) {
 <a href='?provider=Google'>Google</a><br>
 <a href='?provider=Yahoo'>Yahoo</a><br>
 <a href='?provider=Microsoft'>Microsoft/Outlook/Hotmail/Live/Office365</a><br>
+<script type="application/ld+json">
+{
+	"@context" : "http://schema.org",
+	"@type" : "localbusiness",
+	"name" : "READY",
+	"telephone": "+593962681396",
+	"email": "ventasuniformes@royaltex.com.ec",
+	"url" : "https://www.ready.ec/",
+	"sameAs" : [
+	"https://www.facebook.com/share/177P37wd35/",
+	"https://www.instagram.com/ready_royaltex?igsh=MXExamhhdzB5NDNxeA=="
+	],
+	"address": {
+	"@type": "PostalAddress",
+	"streetAddress": "Av. Galo Plaza Lasso, Quito 170310",
+	"addressRegion": "Pichincha",
+	"postalCode": "170310",
+	"addressCountry": "Ecuador"
+	}
+}
+</script>
 </body>
 </html>
     <?php

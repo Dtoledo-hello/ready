@@ -6627,6 +6627,35 @@ a,
 		content:none;
 	}
 }
+.sort-title h3:after{
+	left: -160px;
+}
+.sort-title.text-white h4:after,
+.sort-title.text-white h4:before {
+	background:#fff;
+}
+.sort-title h3:after,
+.sort-title h3:before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: -160px;
+    top: 50%;
+    width: 150px;
+	opacity: 0.15;
+}
+.sort-title h3 {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+@media only screen and (max-width: 767px) {
+    .sort-title h3:after,
+	.sort-title h3:before {
+		content:none;
+	}
+}
 
 /*== >Buttons ======= */
 /* owl slider button */
@@ -13149,11 +13178,11 @@ ol.commentlist li .star-rating {
 	padding-bottom:50px;
 }
 .content-inner-1{
-	padding-top:80px;
+	padding-top:50px;
 	padding-bottom:0px;
 }
 .content-inner-2{
-	padding-top:80px;
+	padding-top:50px;
 	padding-bottom:80px;
 }
 .content-inner-3{
