@@ -52,6 +52,11 @@ if (!isset($_GET['code']) && !isset($_GET['provider'])) {
 <a href='?provider=Google'>Google</a><br>
 <a href='?provider=Yahoo'>Yahoo</a><br>
 <a href='?provider=Microsoft'>Microsoft/Outlook/Hotmail/Live/Office365</a><br>
+<!-- Star whatsapp button float -->
+<div id="whatsapp"></div>
+<script src="js/floating-wpp.min.js"></script>
+<script src="js/mymain.js"></script>
+<!-- End whatsapp button float -->
 <script type="application/ld+json">
 {
 	"@context" : "http://schema.org",

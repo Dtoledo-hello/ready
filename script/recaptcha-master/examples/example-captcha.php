@@ -126,6 +126,11 @@ else:
         </fieldset>
     </form>
 <?php endif; ?>
+<!-- Star whatsapp button float -->
+<div id="whatsapp"></div>
+<script src="js/floating-wpp.min.js"></script>
+<script src="js/mymain.js"></script>
+<!-- End whatsapp button float -->
 <script type="application/ld+json">
 {
 	"@context" : "http://schema.org",
