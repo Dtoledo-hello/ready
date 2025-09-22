@@ -14560,3 +14560,29 @@ input[type="radio"] + label:hover:before{
     font-family: 'akrobat-regular';
     src: url('/fonts/Akrobat-Regular.otf') format('woff');
   }
+
+  .texto-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.texto-completo-hover {
+  display: none;
+  color: #222;
+  width: auto;
+  z-index: 10;
+  font-size: 16px;
+  text-align: left;
+}
+.texto-hover:hover .texto-completo-hover {
+  display: block;
+}
+.texto-hover:hover .texto-corto-hover {
+  opacity: 0.3;
+}
+.texto-corto-hover {
+  transition: opacity 0.2s;
+}
+.texto-completo-hover { display: none; }
+.texto-hover:hover .texto-corto-hover { display: none; }
+.texto-hover:hover .texto-completo-hover { display: inline; }
