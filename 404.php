@@ -1,37 +1,42 @@
+<?php
+header("HTTP/1.1 404 Not Found");
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-M2V6BR6N');</script>
+	<!-- End Google Tag Manager -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="author" content="AlphaSeo">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
 	<!-- SEO -->
-	<title>Chalecos Corporativos | Uniformes Empresariales en Quito</title>
-	<meta name="description" content="Conoce nuestra Línea Administrativa de chalecos corporativos para mujer. En Ready somos expertos en Uniformes Empresariales en Quito ¡Contáctanos ahora!">
+	<title>Uniformes empresariales Corporativos en Ecuador | Ready</title>
+	<meta name="description" content="Estilo, calidad y puntualidad, en Ready diseñamos uniformes personalizados, líderes en la confección de uniformes empresariales Corporativos en Ecuador. ">
 	<!-- /SEO -->
 	<!--google+-->
-	<meta itemprop="name" content="Chalecos Corporativos | Uniformes Empresariales en Quito">
-	<meta itemprop="description" content="Conoce nuestra Línea Administrativa de chalecos corporativos para mujer. En Ready somos expertos en Uniformes Empresariales en Quito ¡Contáctanos ahora!">
+	<meta itemprop="name" content="Uniformes empresariales Corporativos en Ecuador | Ready">
+	<meta itemprop="description" content="Estilo, calidad y puntualidad, en Ready diseñamos uniformes personalizados, líderes en la confección de uniformes empresariales Corporativos en Ecuador. ">
 	<meta itemprop="image" content="https://ready.ec/images/agencia-de-posicionamiento-seo-y-web-en-ecuador-og.png">
 	<!--/google+-->
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary"></meta>
 	<meta name="twitter:url" content="https://ready.ec/">
-	<meta name="twitter:title" content="Chalecos Corporativos | Uniformes Empresariales en Quito">
-	<meta name="twitter:description" content="Conoce nuestra Línea Administrativa de chalecos corporativos para mujer. En Ready somos expertos en Uniformes Empresariales en Quito ¡Contáctanos ahora!">
+	<meta name="twitter:title" content="Uniformes empresariales Corporativos en Ecuador | Ready">
+	<meta name="twitter:description" content="Estilo, calidad y puntualidad, en Ready diseñamos uniformes personalizados, líderes en la confección de uniformes empresariales Corporativos en Ecuador. ">
 	<meta name="twitter:image" content="https://ready.ec/images/agencia-de-posicionamiento-seo-y-web-en-ecuador-og.png">
 	<meta name="twitter:site" content="@readyec">
 	<!-- /Twitter Card -->
 	<!-- Facebook Og -->
-	<meta property="og:title" content="Chalecos Corporativos | Uniformes Empresariales en Quito">
+	<meta property="og:title" content="Uniformes empresariales Corporativos en Ecuador | Ready">
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="Conoce nuestra Línea Administrativa de chalecos corporativos para mujer. En Ready somos expertos en Uniformes Empresariales en Quito ¡Contáctanos ahora!">
+	<meta property="og:description" content="Estilo, calidad y puntualidad, en Ready diseñamos uniformes personalizados, líderes en la confección de uniformes empresariales Corporativos en Ecuador. ">
 	<meta property="og:image" content="https://ready.ec/images/agencia-de-posicionamiento-seo-y-web-en-ecuador-og.png">
 	<meta property="og:url" content="https://ready.ec/">
 	<!-- /Facebook Og -->
@@ -43,7 +48,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	
-		<!-- STYLESHEETS -->
+	<!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="css/plugins.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-4.css">
@@ -54,6 +59,10 @@
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 	</style>
+	
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/revolution.min.css">
+	
 </head>
 <body id="bg">
 <!-- Google Tag Manager (noscript) -->
@@ -62,8 +71,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div class="page-wraper">
 <div id="loading-area" class="solar-loading"></div>
-    <!-- header -->
-    <header class="site-header mo-left header navstyle1 header-bottom">
+<!-- header -->
+	<header class="site-header mo-left header navstyle1 header-bottom">
 		<!-- main header -->
 		<div class="sticky-header main-bar-wraper header-curve navbar-expand-lg">
 			<div class="main-bar clearfix bg-primary">
@@ -168,221 +177,118 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		<!-- main header END -->
 	</header>
-    <!-- header END -->
-    <!-- Content -->
-    <div class="page-content bg-white">
-        <!-- inner page banner -->
-        <div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url(images/banner/bnr5.jpg);">
-            <div class="container">
-                <div class="dlab-bnr-inr-entry">
-                    <h1 class="text-white">Chalecos de Mujer</h1>
-					<!-- Breadcrumb row -->
-					<div class="breadcrumb-row">
-						<ul class="list-inline">
-							<li><a href="/">Home</a></li>
-							<li>Linea Administrativa</li>
-						</ul>
-					</div>
-					<!-- Breadcrumb row END -->
-                </div>
-            </div>
-        </div>
-        <!-- inner page banner END -->
-        <!-- contact area -->
-        <div class="section-full content-inner">
-            <!-- Product -->
-            <div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-4 m-b30">
-						<aside class="side-bar shop-categories sticky-top">
-                            <div class="widget recent-posts-entry">
-								<div class="dlab-accordion advanced-search toggle" id="accordion1">
-									<div class="panel">
-										<div class="acod-head">
-											<h5 class="acod-title"> 
-												<a data-bs-toggle="collapse" href="#categories">
-													LINEA ADMINISTRATIVA
-												</a> 
-											</h5>
-										</div>
-										<div id="categories" class="acod-body collapse show">
-											<div class="acod-content">
-												<div class="widget widget_services">
-													<div class="acod-head">
-														<h5 class="acod-title"> 
-															<a data-bs-toggle="collapse" href="#hombres" class="collapsed">
-																HOMBRES
-															</a> 
-														</h5>
-													</div>
-													<div id="hombres" class="acod-body collapse">
-														<div class="acod-content">
-															<div class="widget widget_services">
-																<ul>
-																	<li><a href="/camisas-empresariales-en-quito-ecuador.html">Camisas</a></li>
-																	<li><a href="/chalecos-empresariales-en-quito-ecuador.html">Chalecos</a></li>
-																	<li><a href="/chompas-empresariales-en-quito-ecuador.html">Chompas</a></li>
-																	<li><a href="/sacos-empresariales-en-quito-ecuador.html">Sweaters</a></li>
-																	<li><a href="/pantalones-empresariales-en-quito-ecuador.html">Pantalones</a></li>
-																</ul>
-															</div>     
-														</div>     
-													</div>
-												</div>
-											</div> 
-										</div>
-										<div id="categories" class="acod-body collapse show">
-											<div class="acod-content">
-												<div class="widget widget_services">
-													<div class="acod-head">
-														<h5 class="acod-title"> 
-															<a data-bs-toggle="collapse" href="#mujeres" class="collapsed">
-																MUJERES
-															</a> 
-														</h5>
-													</div>
-													<div id="mujeres" class="acod-body collapse">
-														<div class="acod-content">
-															<div class="widget widget_services">
-																<ul>
-																	<li><a href="/blusas-empresariales-en-quito-ecuador.html">Blusas</a></li>
-																	<li><a href="/chalecos-empresariales-de-mujer-en-quito-ecuador.html">Chalecos</a></li>
-																	<li><a href="/chompas-empresariales-de-mujer-en-quito-ecuador.html">Chompas</a></li>
-																	<li><a href="/sacos-empresariales-de-mujer-en-quito-ecuador.html">Sweaters</a></li>
-																	<li><a href="/pantalones-empresariales-de-mujer-en-quito-ecuador.html">Pantalones</a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div id="categories" class="acod-body collapse show">
-											<div class="acod-content">
-												<div class="widget widget_services">
-													<div >
-														<h5> 
-															<a  href="/buzos-empresariales-en-quito-ecuador.html" >
-																Buzos y hoddies
-															</a> 
-														</h5>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-                        </aside>
-					</div>
-					<div class="col-lg-9 col-md-8 m-b30">
-						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="item-box m-b10">
-									<div class="item-img">
-										<img src="images/l-a/mujer/chaleco/albinec.jpg" alt="">
-										
-									</div>
-									<div class="item-info text-center text-black p-a10">
-										<h6 class="item-title font-weight-500">ALBINEC UNICOLOR</h6>
-										
-										<h4 class="item-price">
-											<span class="text-primary">TELAS VARIAS</span>
-										</h4>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="item-box m-b10 item-style-1">
-									<div class="item-img">
-										<img src="images/l-a/mujer/chaleco/direc.jpg" alt="">
-										
-									</div>
-									<div class="item-info text-center text-black p-a10">
-										<h6 class="item-title font-weight-500">DIREC</h6>
-										
-										<h4 class="item-price">
-											
-											<span class="text-primary">TELAS VARIAS</span>
-										</h4>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6">
-								<div class="item-box m-b10">
-									<div class="item-img">
-										<img src="images/l-a/mujer/chaleco/varsiti.jpg" alt="">
-										
-									</div>
-									<div class="item-info text-center text-black p-a10">
-										<h6 class="item-title font-weight-500">Varsiti</h6>
+	<!-- header END -->
+		
+	<!-- Slider -->
+	<div class="main-slider style-two default-banner" id="home">
+		<div class="tp-banner-container">
+			<div class="tp-banner" >
+				<div id="welcome_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="reveal-add-on36" data-source="gallery" style="background:#ffffff;padding:0px;">
+					<!-- START REVOLUTION SLIDER 5.4.7.2 fullscreen mode -->
+					<div id="welcome" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.7.2">
+						<ul>	
+							<!-- SLIDE  -->
+							<li data-index="rs-100" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="images/main-slider/dummy.png"  alt=""  data-lazyload="images/slider1.jpg" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina>
+								<!-- LAYER NR. 1 -->
+								<!-- LAYERS -->
+								<div class="tp-caption tp-shape tp-shapewrapper " id="slide-100-layer" 
+									data-x="['center','center','center','center']" 
+									data-hoffset="['0','0','0','0']" 
+									data-y="['middle','middle','middle','middle']" 
+									data-voffset="['0','0','0','0']" 
+									data-width="full" data-height="full" 
+									data-whitespace="nowrap" 
+									data-type="shape" 
+									data-basealign="slide" 
+									data-responsive_offset="off" 
+									data-responsive="off" 
+									data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"Power4.easeOut"}]' 
+									data-textAlign="['left','left','left','left']" 
+									data-paddingtop="[0,0,0,0]" 
+									data-paddingright="[0,0,0,0]" 
+									data-paddingbottom="[0,0,0,0]" 
+									data-paddingleft="[0,0,0,0]" 
+									style="z-index: 2;background-color:rgba(0, 0, 0, 0.1);border-color:rgba(0, 0, 0, 0);border-width:0px; background-image:url(images/overlay/rrdiagonal-line.png)"> </div>
+									<!-- LAYER NR. 1 -->
+								
 
-										<h4 class="item-price">
-											
-											<span class="text-primary">TELAS VARIAS</span>
-										</h4>
-									</div>
+								<div class="tp-caption tp-shape tp-shapewrapper ov-tp " 
+									id="slide-100-layer-1" 
+									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+									data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+									data-width="full"
+									data-height="full"
+									data-whitespace="nowrap"
+									data-type="shape" 
+									data-basealign="slide" 
+									data-responsive_offset="off" 
+									data-responsive="off"
+									data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1500,"frame":"999","to":"opacity:0;","ease":"Power4.easeIn"}]'
+									data-textAlign="['inherit','inherit','inherit','inherit']"
+									data-paddingtop="[0,0,0,0]"
+									data-paddingright="[0,0,0,0]"
+									data-paddingbottom="[0,0,0,0]"
+									data-paddingleft="[0,0,0,0]"
+									style="z-index: 5;">
 								</div>
-							</div>
-						</div>
+								<div class="tp-caption " 
+									id="slide-100-layer-3" 
+									data-x="['center','center','center','center']" data-hoffset="['-90','-150','0','0']" 
+									data-y="['middle','middle','middle','middle']" data-voffset="['-90','-100','-80','-90']" 
+									data-fontsize="['40','40','30','20']"
+									data-lineheight="['45','40','30','20']"
+									data-letterspacing="['2','2','2','2']"
+									data-width="['1000','none','768','360']"
+									data-height="none"
+									data-whitespace="['normal','nowrap','normal','normal']"
+									data-type="text" 
+									data-responsive_offset="off" 
+									data-responsive="off"
+									data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;","color":"#000000","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","color":"#000000","to":"opacity:0;","ease":"nothing"}]'
+									data-textAlign="['left','left','center','center']"
+									data-paddingtop="[0,0,0,0]"
+									data-paddingright="[10,10,0,0]"
+									data-paddingbottom="[0,0,0,0]"
+									data-paddingleft="[0,0,0,0]"
+									style="z-index: 6; min-width: 800px; max-width: 800px; font-weight: 900; white-space: normal; color: #fff; font-family: 'akrobat-regular',sans-serif;">           
+									ERROR 404 - PÁGINA NO ENCONTRADA                         
+								</div>
+								<!-- LAYER NR. 3 -->
+								<div class="tp-caption" 
+									id="slide-100-layer-4" 
+									data-x="['center','center','center','center']" data-hoffset="['-265','-165','0','0']" 
+									data-y="['middle','middle','middle','middle']" data-voffset="['20','15','20','10']" 
+									data-fontsize="['18','16','14','14']"
+									data-lineheight="['30','30','26','26']"
+									data-width="['640','481','500','300']"
+									data-height="none"
+									data-whitespace="normal"
+									data-type="text" 
+									data-responsive_offset="off" 
+									data-responsive="off"
+									data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;","color":"#000000","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","color":"#000000","to":"opacity:0;","ease":"nothing"}]'
+									data-textAlign="['left','left','center','center']"
+									data-paddingtop="[0,0,0,0]"
+									data-paddingright="[0,0,0,0]"
+									data-paddingbottom="[0,0,0,0]"
+									data-paddingleft="[0,0,0,0]"
+									style="z-index: 7; min-width: 640px; max-width: 640px; font-weight: 400; font-size: 18px; line-height: 30px; font-weight: 400; color: #fff; font-family: 'akrobat-regular',sans-serif;">
+								</div>
+							</li>
+						</ul>
+						<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	
 					</div>
 				</div>
-			</div>
-            <!-- Product END -->
-		</div>
-    </div>
-    <!-- Content END-->
-    <div id="myModalalphaseo" class="content-container-contenedor-modalalphaseo">
-            <div class="container-contenedor-modalalphaseo">
-                <div class="contenedor-modalalphaseo">
-                    <div class="contenedor-container-close">
-                        <div id="close-div" class="container-close">
-                            <i class="fa fa-times" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                    <div class="modalalphaseo">
-						<h1>Chalecos Corporativos</h1> para Mujer: Profesionalismo con Estilo
-Los chalecos corporativos para mujer son una opción versátil y elegante dentro del vestuario empresarial. En Ready confeccionamos chalecos diseñados para ofrecer presencia, comodidad y adaptabilidad a diferentes entornos de trabajo. Esta prenda complementa cualquier uniforme formal, aportando una capa extra de profesionalismo y distinción.
-
-Ofrecemos soluciones en <h2>uniformes empresariales en Quito</h2>, con diseño personalizado, materiales de alta calidad y cortes que favorecen la figura femenina. Nuestros chalecos se adaptan a las necesidades de empresas modernas que valoran la presentación, sin comprometer la comodidad de su personal.
-
-<h2>Línea Administrativa de Chalecos</h2>: Comodidad y Presencia
-La Línea Administrativa de chalecos está pensada para ejecutivas, asesoras, recepcionistas y personal administrativo que requiere proyectar una imagen institucional sólida y a la vez funcional. Esta línea ofrece opciones con botones, cierres ocultos o cinturillas, todas con acabados prolijos y materiales resistentes.
-
-Nuestros <h2>uniformes empresariales</h2> se caracterizan por su enfoque en la imagen de marca. El chaleco, como prenda exterior, permite integrar con facilidad logotipos, colores corporativos o detalles visuales que reflejen la identidad de la empresa.
-
-Los <h2>uniformes empresariales modernos</h2> deben combinar estética y funcionalidad. En Ready, diseñamos chalecos femeninos con tejidos frescos, cortes contemporáneos y detalles que resaltan la figura, sin dejar de cumplir con los requerimientos de un entorno profesional.
-
-Uniformes Corporativos Adaptados a tu Empresa
-Nuestros <h2>uniformes corporativos en Ecuador</h2> están pensados para climas diversos, desde oficinas con aire acondicionado hasta zonas costeras como Guayaquil. Usamos materiales como gabardina liviana, lino stretch o mezclas de poliéster con algodón, ideales para el día a día laboral.
-
-Un buen <h2>uniforme de trabajo</h2> debe representar a la empresa sin sacrificar la comodidad de quien lo usa. Por eso, diseñamos chalecos con forros transpirables, telas flexibles y cortes ergonómicos que permiten libertad de movimiento.
-
-El <h2>diseño de uniformes</h2> corporativos en Ready incluye una asesoría personalizada para elegir la mejor opción en cuanto a telas, estilo y funcionalidad, asegurando que cada prenda sea una extensión visual de tu marca.
-
-Confeccionamos <h2>uniformes administrativos en Guayaquil</h2> con atención a cada detalle: costuras reforzadas, terminaciones limpias, variedad de tallas y adaptaciones según la figura femenina. Cada chaleco puede personalizarse según el área de trabajo y el rol del personal.
-
-Nuestros <h2>uniformes institucionales en Quito<h2> están pensados para empresas que desean mantener coherencia visual en su equipo, ofreciendo una imagen seria, moderna y bien cuidada.
-
-Elegancia Ejecutiva y Funcionalidad
-Ofrecemos <h2>uniformes cómodos y elegantes</h2>, pensados para largas jornadas laborales. El chaleco femenino se adapta fácilmente a camisas, blusas o tops ejecutivos, haciendo que cada uniforme se vea pulido y profesional.
-
-Ideales como <h2>uniformes para servicios</h2>, estos chalecos se utilizan ampliamente en áreas como atención al cliente, hotelería, consultorías y áreas administrativas en general.
-
-Nuestros chalecos son también <h2>uniformes resistentes</h2>, hechos para durar, con materiales que soportan el uso diario sin perder forma ni color.
-
-En Ready trabajamos con el concepto de <h3>uniformes con identidad corporativa</h3>, donde cada prenda comunica los valores de la empresa. Esto se logra mediante diseño, materiales y personalización visual.
-
-Nuestros chalecos también forman parte de los <h4>uniformes ejecutivos en Quito</h4>, dirigidos a mujeres que necesitan proyectar autoridad y confianza en su entorno profesional.
-
-Finalizamos con un servicio completo de <h5>confección de uniformes</h5>, que incluye diseño, prueba de tallas, producción y entrega a nivel nacional.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /The Modal Info de la Empresa -->
+				<!-- END REVOLUTION SLIDER -->     
+			</div>        
+		</div>        
+	</div>        
+	<!-- Slider END -->
+	
     <!-- Footer -->
-    <footer class="site-footer text-uppercase" >
+<footer class="site-footer text-uppercase" >
   <div class="footer-top" style="background-image: url(images/banner.jpg);">
     <div class="container">
       <div class="row">
@@ -453,7 +359,7 @@ Finalizamos con un servicio completo de <h5>confección de uniformes</h5>, que i
         </div>
       </div>
       <div class="col-md-6 col-sm-3 text-right">
-        <span class="text-white">Diseñado por <a href="https://hellomediaec.com" target="_blank">Hello360</a> Programado por <a href="https://iqlatam.com" target="_blank">IQLATAM</a> Posicionado por <a href="https://alphaseoec.com" target="_blank">AlphaSEO</a></span>      
+        <span class="text-white">Diseñado por <a href="https://hellomediaec.com" target="_blank">Hello360</a> Programado por <a href="https://iqlatam.com" target="_blank">IQLATAM</a> Posicionado por <a href="https://ready.ec" target="_blank">AlphaSEO</a></span>      
 	  </div>
       <div class="col-md-4 col-sm-6 text-right">
         <div class="widget-link">
@@ -466,12 +372,12 @@ Finalizamos con un servicio completo de <h5>confección de uniformes</h5>, que i
   </div>
 </div>
 </footer>
-    <button class="scroltop fas fa-chevron-up" ></button>
+<!-- Footer END -->
+    <button class="scroltop style2 radius" type="button"><i class="fas fa-arrow-up"></i></button>
 </div>
 <!-- JAVASCRIPT FILES ========================================= -->
 <script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
 <script src="plugins/wow/wow.js"></script><!-- WOW JS -->
-
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
 <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script><!-- FORM JS -->
 <script src="plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script><!-- FORM JS -->
@@ -485,12 +391,33 @@ Finalizamos con un servicio completo de <h5>confección de uniformes</h5>, que i
 <script src="plugins/lightgallery/js/lightgallery-all.min.js"></script><!-- Lightgallery -->
 <script src="plugins/scroll/scrollbar.min.js"></script><!-- scroll -->
 <script src="js/custom.js"></script>
-<script src="js/info.js"></script><!-- CUSTOM FUCTIONS  -->
+<script src="js/info.js"></script>
 <script src="js/dz.carousel.min.js"></script><!-- SORTCODE FUCTIONS  -->
 <script src="plugins/countdown/jquery.countdown.js"></script><!-- COUNTDOWN FUCTIONS  -->
 <script src="js/dz.ajax.js"></script><!-- CONTACT JS  -->
 
 
+<script src="js/jquery.lazy.min.js"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="js/rev.slider.js"></script>
+<script>
+jQuery(document).ready(function() {
+	'use strict';
+	dz_rev_slider_1();	
+	$('.lazy').Lazy();
+});	/*ready*/
+</script>
 <!-- Star whatsapp button float -->
 <div id="whatsapp"></div>
 <script src="js/floating-wpp.min.js"></script>
