@@ -14586,3 +14586,61 @@ input[type="radio"] + label:hover:before{
 .texto-completo-hover { display: none; }
 .texto-hover:hover .texto-corto-hover { display: none; }
 .texto-hover:hover .texto-completo-hover { display: inline; }
+.qty-box{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:10px;
+	margin-top:10px;
+}
+
+.qty-btn{
+	width:32px;
+	height:32px;
+	border:1px solid #000;
+	background:#fff;
+	cursor:pointer;
+	font-size:18px;
+}
+
+.qty{
+	min-width:20px;
+	font-weight:bold;
+}
+
+.modal-custom{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.6);
+	z-index:9999;
+	align-items:center;
+	justify-content:center;
+}
+
+.modal-content-custom{
+	background:#fff;
+	padding:25px;
+	max-width:400px;
+	width:90%;
+	border-radius:6px;
+}
+
+.modal-actions{
+	display:flex;
+	justify-content:space-between;
+	margin-top:20px;
+}
+
+.modal-content-custom h4{
+	margin-bottom:15px;
+}
+
+.order-item{
+	border-bottom:1px solid #ddd;
+	padding:8px 0;
+	font-size:14px;
+}
