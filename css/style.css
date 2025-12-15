@@ -14586,27 +14586,97 @@ input[type="radio"] + label:hover:before{
 .texto-completo-hover { display: none; }
 .texto-hover:hover .texto-corto-hover { display: none; }
 .texto-hover:hover .texto-completo-hover { display: inline; }
-.qty-box{
+.shopify-card{
+	border:1px solid #eee;
+	border-radius:8px;
+	overflow:hidden;
+	transition:.3s ease;
+	background:#fff;
+}
+
+.shopify-card:hover{
+	box-shadow:0 10px 25px rgba(0,0,0,.08);
+	transform:translateY(-3px);
+}
+
+/* IMAGEN */
+.shopify-img{
+	background:#f7f7f7;
+	padding:15px;
+	text-align:center;
+}
+
+.shopify-img img{
+	max-width:100%;
+	height:auto;
+}
+
+/* INFO */
+.shopify-info{
+	padding:15px;
+	text-align:center;
+}
+
+.shopify-info h6{
+	font-size:14px;
+	font-weight:600;
+	margin-bottom:4px;
+	text-transform:uppercase;
+}
+
+.item-material{
+	font-size:13px;
+	color:#777;
+	margin-bottom:12px;
+}
+
+/* CANTIDAD */
+.shopify-qty{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	gap:10px;
-	margin-top:10px;
+	border:1px solid #ddd;
+	border-radius:6px;
+	width:110px;
+	margin:0 auto;
 }
 
 .qty-btn{
-	width:32px;
-	height:32px;
-	border:1px solid #000;
+	width:36px;
+	height:36px;
+	border:none;
 	background:#fff;
+	font-size:20px;
 	cursor:pointer;
-	font-size:18px;
 }
 
 .qty{
-	min-width:20px;
-	font-weight:bold;
+	width:40px;
+	text-align:center;
+	font-weight:600;
+	font-size:14px;
 }
+
+.qty-btn:hover{
+	background:#f1f1f1;
+}
+
+.shopify-btn{
+	background:#000;
+	color:#fff;
+	padding:14px 40px;
+	font-size:15px;
+	font-weight:600;
+	border:none;
+	border-radius:6px;
+	cursor:pointer;
+	transition:.3s;
+}
+
+.shopify-btn:hover{
+	background:#333;
+}
+
 
 .modal-custom{
 	display:none;
@@ -14624,23 +14694,18 @@ input[type="radio"] + label:hover:before{
 .modal-content-custom{
 	background:#fff;
 	padding:25px;
-	max-width:400px;
+	max-width:420px;
 	width:90%;
-	border-radius:6px;
-}
-
-.modal-actions{
-	display:flex;
-	justify-content:space-between;
-	margin-top:20px;
-}
-
-.modal-content-custom h4{
-	margin-bottom:15px;
+	border-radius:8px;
+	box-shadow:0 20px 40px rgba(0,0,0,.2);
 }
 
 .order-item{
-	border-bottom:1px solid #ddd;
-	padding:8px 0;
+	padding:10px 0;
+	border-bottom:1px solid #eee;
 	font-size:14px;
+}
+
+.modal-actions button{
+	min-width:48%;
 }
