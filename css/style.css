@@ -14631,52 +14631,84 @@ input[type="radio"] + label:hover:before{
 }
 
 /* CANTIDAD */
-.shopify-qty{
+.product-card{
+	border:1px solid #eee;
+	border-radius:8px;
+	overflow:hidden;
+	background:#fff;
+	transition:.3s;
+}
+
+.product-card:hover{
+	box-shadow:0 8px 25px rgba(0,0,0,.08);
+	transform:translateY(-3px);
+}
+
+.product-image img{
+	width:100%;
+	display:block;
+}
+
+.product-body{
+	padding:15px;
+	text-align:center;
+}
+
+.product-title{
+	font-size:14px;
+	font-weight:600;
+	margin-bottom:5px;
+}
+
+.product-material{
+	font-size:12px;
+	color:#777;
+	display:block;
+	margin-bottom:10px;
+}
+
+/* TALLAS */
+.size-selector{
+	display:flex;
+	justify-content:center;
+	gap:6px;
+	margin-bottom:12px;
+}
+
+.size-btn{
+	border:1px solid #ccc;
+	background:#fff;
+	padding:4px 8px;
+	font-size:12px;
+	cursor:pointer;
+}
+
+.size-btn.active{
+	border-color:#000;
+	font-weight:bold;
+}
+
+/* CANTIDAD */
+.qty-shopify{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	border:1px solid #ddd;
-	border-radius:6px;
-	width:110px;
-	margin:0 auto;
+	gap:12px;
 }
 
 .qty-btn{
-	width:36px;
-	height:36px;
-	border:none;
+	width:32px;
+	height:32px;
+	border:1px solid #000;
 	background:#fff;
-	font-size:20px;
+	font-size:18px;
 	cursor:pointer;
 }
 
 .qty{
-	width:40px;
-	text-align:center;
-	font-weight:600;
-	font-size:14px;
+	min-width:20px;
+	font-weight:bold;
 }
-
-.qty-btn:hover{
-	background:#f1f1f1;
-}
-
-.shopify-btn{
-	background:#000;
-	color:#fff;
-	padding:14px 40px;
-	font-size:15px;
-	font-weight:600;
-	border:none;
-	border-radius:6px;
-	cursor:pointer;
-	transition:.3s;
-}
-
-.shopify-btn:hover{
-	background:#333;
-}
-
 
 .modal-custom{
 	display:none;
