@@ -14724,13 +14724,18 @@ input[type="radio"] + label:hover:before{
 }
 
 .modal-content-custom{
-	background:#fff;
-	padding:25px;
-	max-width:420px;
-	width:90%;
-	border-radius:8px;
-	box-shadow:0 20px 40px rgba(0,0,0,.2);
+    background:#fff;
+    padding:25px;
+    max-width:420px;
+    width:90%;
+    border-radius:8px;
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
 }
+
 
 .order-item{
 	padding:10px 0;

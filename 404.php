@@ -170,6 +170,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<li>
 								<a href="/uniformes-en-ecuador-contactanos.html">Contáctanos</a>
 							</li>
+							<li class="login-menu">
+								<a href="/login.html" title="Ingresar">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.2c-3.3 0-9.9 1.7-9.9 5v1.6h19.8V19.2c0-3.3-6.6-5-9.9-5z"/></svg>
+									Ingresar
+								</a>
+							</li>
 						</ul>				
 					</div>
 				</div>
